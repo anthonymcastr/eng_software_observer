@@ -19,25 +19,25 @@ class Loja:
     def registrar(self, observer):
         self.observers.append(observer)
 
-    def remover(self, observer):
+    def remover(self, observer): # com o método remover disponível, posteriormente podemos implementar lógica onde caso o usuário não deseja estar mais na lista de avisos automaticos, ele possa ser removido
         self.observers.remove(observer)
 
-    def notificar(self, produto):
+    def notificar(self, produto): #funcao de notificação, onde todo cliente recebe a atualização sobre o novo produto disponível
         for observer in self.observers:
             observer.update(produto)
 
     def novo_produto(self, produto):
-        print(f"Loja: {produto} chegou!")
-        self.notificar(produto)
+        print(f"Loja: {produto} chegou!") # incluimos o produto
+        self.notificar(produto) # chama a função de notificação, pós inclusão do produto
 
 # Teste
 loja = Loja()
-cliente1 = Cliente("Alice")
-cliente2 = Cliente("Bob")
+cliente1 = Cliente("Wagner")
+cliente2 = Cliente("Anthony")
 
 loja.registrar(cliente1)
 loja.registrar(cliente2)
 
-loja.novo_produto("iPhone 15")
+loja.novo_produto("Desktop I5 12400KF + 4060ti")
 
 

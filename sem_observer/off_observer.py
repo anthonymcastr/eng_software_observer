@@ -4,7 +4,7 @@ class Loja:
 
     def novo_produto(self):
         self.produto_disponivel = True
-        print("Novo produto chegou!")
+        print("Novo produto chegou na CK Informática!")
 
 class Cliente:
     def verificar_loja(self, loja):
@@ -16,6 +16,6 @@ class Cliente:
 loja = Loja()
 cliente = Cliente()
 
-cliente.verificar_loja(loja)  # Cliente checa manualmente
-loja.novo_produto()
+cliente.verificar_loja(loja)  # checagem manual do cliente
+loja.novo_produto() 
 cliente.verificar_loja(loja)
