@@ -1,0 +1,7 @@
+Desvantagens
+
+Pode introduzir complexidade adicional com muitos observadores;
+
+Dificuldade de rastrear notificações em sistemas grandes;
+
+Notificações em cascata podem ser difíceis de controlar.

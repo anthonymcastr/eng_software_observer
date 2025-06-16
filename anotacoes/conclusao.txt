@@ -1,0 +1,3 @@
+O padrão Observer é extremamente útil em cenários onde há necessidade de notificação automática entre objetos. 
+Ele é amplamente utilizado em interfaces gráficas, sistemas de eventos, e 
+em diversas arquiteturas modernas como MVC, Pub/Sub e Event-driven systems.

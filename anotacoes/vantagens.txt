@@ -1,0 +1,9 @@
+Vantagens do Observer:
+
+Baixo acoplamento entre objetos;
+
+Facilita o reuso de componentes;
+
+Segue o princípio aberto/fechado (Open/Closed Principle);
+
+Permite comunicação reativa.
