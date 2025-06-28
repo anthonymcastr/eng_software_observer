@@ -29,3 +29,6 @@ O Observer resolve isso permitindo que o cliente **se inscreva** para ser notifi
 ## 🛠️ Solução
 
 Implementa-se uma classe **Sujeito (Publisher)** com métodos para **registrar**, **remover** e **notificar** **observadores (Observers)**. Os observadores reagem automaticamente a qualquer mudança de estado.
+
+
+Link da apresentação: https://drive.google.com/file/d/1EE-L-0HYVerkp7xgm2ijEkgjFXAWPgmG/view?usp=drive_link
